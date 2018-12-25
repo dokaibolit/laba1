@@ -1,11 +1,11 @@
-#pragma once
+п»ї#pragma once
 #include "header.h"
 class Aeroflot
 {
 private:
-	string place; // место назначения
-	string type; // тип самолета
-	int number; // номер рейса
+	string place; // РјРµСЃС‚Рѕ РЅР°Р·РЅР°С‡РµРЅРёСЏ
+	string type; // С‚РёРї СЃР°РјРѕР»РµС‚Р°
+	int number; // РЅРѕРјРµСЂ СЂРµР№СЃР°
 public:
 	Aeroflot();
 	void set(string place, string type, int number);

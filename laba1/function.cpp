@@ -1,4 +1,4 @@
-#include "function.h"
+ï»¿#include "function.h"
 void flush_stdin()
 {
 	cin.clear();
@@ -6,19 +6,19 @@ void flush_stdin()
 }
 void set_aero(string &place, string &type, int &number)
 {
-	cout << "Ââåäèòå ïóíêò íàçíà÷åíèÿ: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿ÑƒÐ½ÐºÑ‚ Ð½Ð°Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ñ: ";
 	getline(cin, place);
-	cout << "Ââåäèòå òèï ñàìîëåòà: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‚Ð¸Ð¿ ÑÐ°Ð¼Ð¾Ð»ÐµÑ‚Ð°: ";
 	cin >> type;
 	flush_stdin();
-	cout << "Ââåäèòå íîìåð ðåéñà: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð¼ÐµÑ€ Ñ€ÐµÐ¹ÑÐ°: ";
 	cin >> number;
 	flush_stdin();
 }
 int set_length()
 {
 	int length;
-	cout << "Ââåäèòå ðàçìåð ñïèñêà: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ ÑÐ¿Ð¸ÑÐºÐ°: ";
 	cin >> length;
 	flush_stdin();
 	return length;
@@ -26,14 +26,14 @@ int set_length()
 int set_ID()
 {
 	int ID;
-	cout << "Ââåäèòå ID ðåéñà: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ID Ñ€ÐµÐ¹ÑÐ°: ";
 	cin >> ID;
 	return ID;
 }
 string set_place()
 {
 	string place;
-	cout << "Ââåäèòå ïóíêò íàçíà÷åíèÿ: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿ÑƒÐ½ÐºÑ‚ Ð½Ð°Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ñ: ";
 	cin >> place;
 	return place;
 }

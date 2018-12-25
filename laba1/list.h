@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include "aeroflot.h"
 class List
 {
@@ -17,10 +17,10 @@ private:
 public:
 	List();
 	~List();
-	void create(int length); // создание списка размером length
-	void push(); // "проталкивание" элемента в список
+	void create(int length); // СЃРѕР·РґР°РЅРёРµ СЃРїРёСЃРєР° СЂР°Р·РјРµСЂРѕРј length
+	void push(); // "РїСЂРѕС‚Р°Р»РєРёРІР°РЅРёРµ" СЌР»РµРјРµРЅС‚Р° РІ СЃРїРёСЃРѕРє
 	void check_tail(int ID);
-	void fill(string place, string type, int number, int ID); // заполнение списка
+	void fill(string place, string type, int number, int ID); // Р·Р°РїРѕР»РЅРµРЅРёРµ СЃРїРёСЃРєР°
 	void show(int ID);
 	void sorting();
 	void swap(Aeroflot & object_1, Aeroflot & object_2);
